@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 import Typography from '../Atoms/Typography';
 
 export default function ToolBar() {
@@ -14,11 +14,11 @@ const styles = StyleSheet.create({
   container: {
     height: 'auto',
     padding: 10,
-    backgroundColor: '#a6c6f7',
     borderRadius: 4,
   },
   header: {
     fontSize: 20,
     fontWeight: 'bold',
+    color: 'black',
   },
 });
